@@ -3,6 +3,6 @@ php artisan route:clear
 php artisan config:clear 
 php artisan view:clear 
 # Run database migrations
-yes | php artisan migrate:fresh
+yes | php artisan migrate
 # Run database seeds
 php artisan db:seed
